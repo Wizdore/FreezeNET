@@ -10,4 +10,4 @@ maybe add kernel regularizer to model ?
 
 # models
 
-* 10epochs_nosig : baseline simplenet
+* 10epochs_nosig : baseline FreezeNet
