@@ -12,7 +12,7 @@ from .callback import WeightsFreezer
 from .metrics import F1Score
 
 
-class SimpleNet(models.Sequential):
+class FreezeNet(models.Sequential):
     def __init__(self):
         super().__init__()
         self.initialize_layers()
